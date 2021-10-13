@@ -1,0 +1,353 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('raleway.regular.ttf');
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('raleway.bold.ttf');
+}
+
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('raleway.semibold.ttf');
+}
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('raleway.thin.ttf');
+}
+
+
+.p
+{
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input[type="text"] 
+{
+   
+    width: 272px;
+    height: 59px;
+   
+    font-size: 13px;
+    padding: 17px;
+    background-color: rgb(66, 71, 105);
+    border: none;
+    color:white;
+
+    font-family: raleway;
+    padding-left: 50px;
+   
+}
+
+
+input[type="email"] 
+{
+    width: 272px;
+    height: 59px;
+    
+    font-size: 13px;
+    padding: 17px;
+    background-color: rgb(66, 71, 105);
+    border: none;
+    color:white;
+    outline: none;
+
+    font-family: raleway;
+    padding-left: 50px;
+    
+
+}
+
+
+input[type="email"]:focus
+{
+   
+    border-Left: 3px solid rgb(242, 189, 126);
+ 
+
+}
+
+input[type="password"] 
+{
+    width: 272px;
+    height: 59px;
+    
+    font-size: 13px;
+    padding: 17px;
+    background-color: rgb(66, 71, 105);
+    border: none;
+    color:white;
+    outline: none;
+
+    font-family: raleway;
+   padding-left: 50px;
+
+}
+
+input[type="password"]:focus
+{
+   
+    border-Left: 3px solid rgb(242, 189, 126);
+ 
+
+}
+
+
+
+.Main-Input-Box
+{
+
+ 
+
+    /*border: 1px solid red;*/
+    width: 50%;
+    padding-top: 15px;
+    padding-left: 73px;
+    
+  
+ 
+}
+
+.mother-box
+{
+    
+    background-color: rgb(45, 50, 80);
+    border: 1px solid rgb(45, 50, 80) ;
+    width: 863px;
+    height: 605px;
+    border-radius: 22px;
+    box-shadow: 9px 9px  40px   #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150;
+  
+
+ 
+}
+
+input,#email
+{
+
+}
+
+
+.image-set
+{
+   position: absolute;
+   margin-left: 430px;
+   border-top-right-radius: 22px;
+   border-bottom-right-radius: 22px;
+}
+
+.Nav-Input-Box
+{
+   /*border: 1px solid red;*/
+    
+    width: 50%;
+    padding-bottom: 80px;
+    
+}
+
+
+
+.Input-container
+{
+    margin-top: 4px;
+    
+}
+
+.Upper-Button
+{
+    position: absolute;
+    font-size: 15px;
+    border:none;
+    background-color: rgb(45, 50, 80);
+    color: rgb(255, 255, 255);
+    padding-bottom: 4px;
+    
+
+}
+
+.Upper-Button1
+{
+    margin-top: 30px;
+    
+    margin-left: 73px;
+    
+
+    font-family: raleway;
+    font-weight:600;
+    color: rgb(78, 83, 119);
+    font-size: 14px;
+     
+}
+.Upper-Button2
+{
+    position: absolute;
+    margin-top: 30px;
+    
+    margin-left: 175px;
+ 
+    
+    color: rgb(78, 83, 119);
+
+    font-family: raleway;
+    font-weight:600;
+    font-size: 14px;
+   
+   
+}
+
+
+
+
+.Nav-Input-Box button:hover, .Nav-Input-Box button:focus, .Nav-Input-Box button:active
+{
+   
+    border-bottom: 3px solid rgb(242, 189, 126);
+    color: white;
+    outline: none;
+
+}
+
+
+
+
+.Title-Input-Box
+{
+    /*border: 1px solid red;*/
+  
+}
+.Big-title
+{
+margin-top: 40px;
+margin-left: 73px;
+font-family: 'ralewaybold';
+
+
+
+color: white;
+font-size: 30px;
+ 
+ 
+}
+.small-title
+{
+    margin-top: -24px;
+  
+    margin-left: 73px;
+    font-family: 'raleway';
+    
+    color: white;
+    font-size: 13px;
+}
+.terms-Box
+{
+    
+     /*border: 1px solid red;*/
+    padding-top: 1px;
+
+    
+    color: white;
+    font-size: 11px;
+    font-family: "ralewaysemibold";
+    
+    
+
+
+}
+
+
+.checkboxlabel
+{
+    position: absolute;
+    margin-left: 10px;
+    padding-top: 4px;
+}
+.checkboxcs
+{
+  
+    -webkit-appearance: none;
+	background-color: rgb(45, 50, 80);
+	border: 1px solid rgb(242, 189, 126);
+	
+	padding: 7px;
+	border-radius: 3px;
+
+	position: relative;
+   
+    margin-left: 74px;
+}
+
+
+.checkboxcs:checked:after {
+	content: '\2714';
+	font-size: 12px;
+	position: absolute;
+	top: -1px;
+	left: 3px;
+	color: rgb(242, 189, 126);
+}
+
+.Register-Box
+{
+    padding-top: 18px;
+     /*border: 1px solid red;*/
+    padding-left: 73px;
+}
+
+.Register-Button
+{
+    
+   
+   
+   
+    text-align: center;
+  
+   
+
+    color: rgb(45, 50, 80);
+    font-size: 15px;
+    font-family: 'ralewaybold';
+  
+    
+
+
+    background-color: rgb(249, 177, 122);
+    border-radius:4px;
+    width: 160px;
+    height: 37px;
+    border: none;
+
+    box-shadow: 0px 0px   10px   rgb(212, 165, 107, 0.979);
+}
+
+.Register-Button:hover 
+{
+    background-color: rgba(212, 165, 107, 0.979);
+    
+  }
+
+
+.Input-container i
+{
+    position: absolute;
+    color: rgb(212, 165, 107, 0.979);
+    font-size: 20px;
+    padding-left: 20px;
+    padding-Top: 20px;
+    
+    
+
+}
+#email-icon
+{
+
+    font-size: 16px;
+
+   
+}
+
